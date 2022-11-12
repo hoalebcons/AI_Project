@@ -1,0 +1,20 @@
+{"level": 2,
+    "size": [6,15],
+    "swX": {"count": 1,"symbol": ["x1"],"x1": {"type": 0,"active": false,"location": [1,8],"bridge": "c2"}},
+    "swQ": {"count": 1,"symbol": ["q1"],"q1": {"type": 0,"active":false,"location":[2,2],"bridge":"c1"}},
+    "swO": {"count": 0,"symbol": []},
+    "bridge": {"count": 2,"symbol": ["c1","c2"],
+    "c1": {"times_active": 0,"active": false,"location": [[4,4],[4,5]]},
+    "c2": {"times_active": 0,"active": false,"location": [[4,10],[4,11]]}},
+    "start": [4,1],"end": [1,13],
+    "box": {"state": 2,"symbol": "#","location": [[4,1]]},
+    "tiles": {"orange": 2,"rock": 1,"space": 0},
+  "maps": [
+  [0,0,0,0,0,0,1,1,1,1,0,0,1,1,1],
+  [1,1,1,1,0,0,1,1,"x1",1,0,0,1,0,1],
+  [1,1,"q1",1,0,0,1,1,1,1,0,0,1,1,1],
+  [1,1,1,1,0,0,1,1,1,1,0,0,1,1,1],
+  [1,"#",1,1,0,0,1,1,1,1,0,0,1,1,1],
+  [1,1,1,1,0,0,1,1,1,1,0,0,0,0,0]
+  ]
+}
